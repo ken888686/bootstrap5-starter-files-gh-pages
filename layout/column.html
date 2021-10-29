@@ -171,23 +171,23 @@
 
       <p>情境：</p>
       <ul>
-        <li>桌面版 xl：4 大欄</li>
-        <li>平板 md：3 大欄</li>
-        <li>行動版 xs：2 欄</li>
+        <li>桌面版 xl：4 大欄 (col-3)</li>
+        <li>平板 md：3 大欄 (col-4)</li>
+        <li>行動版 xs：2 欄 (col-6)</li>
       </ul>
 
       <div class="container">
         <div class="row">
-          <div class="練習 mb-3">
+          <div class="col-6 col-md-4 col-xl-3 mb-3">
             <div class="box"></div>
           </div>
-          <div class="練習 mb-3">
+          <div class="col-6 col-md-4 col-xl-3 mb-3">
             <div class="box"></div>
           </div>
-          <div class="練習 mb-3">
+          <div class="col-6 col-md-4 col-xl-3 mb-3">
             <div class="box"></div>
           </div>
-          <div class="練習 mb-3">
+          <div class="col-6 col-md-4 col-xl-3 mb-3">
             <div class="box"></div>
           </div>
         </div>
@@ -197,19 +197,22 @@
 
       <p>情境：</p>
       <ul>
-        <li>平板以上為 md：3 大欄</li>
-        <li>行動版 xs：單 欄</li>
+        <li>平板以上為 md：3 大欄 (col-4)</li>
+        <li>
+          行動版 xs：單欄 (col-12) <br />
+          行動版為單欄，其他有中斷點時，可跳過行動版直接寫其他 size (從小到大)
+        </li>
       </ul>
 
       <div class="container">
         <div class="row">
-          <div class="練習">
+          <div class="col-md-4">
             <div class="box"></div>
           </div>
-          <div class="練習">
+          <div class="col-md-4">
             <div class="box"></div>
           </div>
-          <div class="練習">
+          <div class="col-md-4">
             <div class="box"></div>
           </div>
         </div>
@@ -222,7 +225,9 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-4 offset-3"><div class="box"></div></div>
+          <div class="col-4 offset-4">
+            <div class="box"></div>
+          </div>
         </div>
       </div>
       <!-- 🙇🙇練習結束🙇🙇 -->
